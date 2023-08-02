@@ -845,12 +845,17 @@ Start of home-2 banner
 }
 .banner-mock-up {
 	position: absolute;
-	left: 0;
-	top: 0;
+
 }
 .banner-mock-up.home-1 {
 	top: -35px;
+	/* right: 400px;	 */
+	left: -500px; 
 } 
+.banner-mock-up img {
+	width: 60%; /* Adjust this value to make the image smaller (e.g., 50%, 70%, etc.) */
+	/* You can also adjust the height property if needed, or leave it as auto to maintain aspect ratio */
+  }
 
 .banner-slider {
 	position: absolute;
