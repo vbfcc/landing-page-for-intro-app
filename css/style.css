@@ -156,7 +156,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .pink {
 	/* color: #f11965; */
-	color: #f11965;
+	color: green;
 }
 
 @-webkit-keyframes video-icon {
@@ -340,7 +340,10 @@ Start of about section
 }
 
 .download-store li {
-	margin-right: 20px;
+	margin-right: 10px;
+	width: 150px;
+    height: 65px;
+
 }
 /*----------------------------------------------------------------------- 
 End of about section
