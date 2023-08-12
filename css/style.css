@@ -65,7 +65,37 @@ nav#bs-example-navbar-collapse-1 a {
 	max-height: 5px;
 }
 
+ /* logo of header */
+ .centered-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100px; You can adjust the height as needed */
+}
 
+/* this below is for paragraph text */
+.text-container {
+	/* max-width: 600px; */
+	padding: 25px;
+	background-color: rgb(215, 245, 207);
+	border-radius: 15px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-section-content{
+	padding: 25px;
+}
+
+/* 
+.centered-logo img {
+    max-height: 100%; /* Ensure the image fits within the container's height */
+    /* max-width: 100%; Ensure the image fits within the container's width */
+/* }  */
+
+
+
+  
+  
 
 /* add size to download buttons */
 .same-size {
