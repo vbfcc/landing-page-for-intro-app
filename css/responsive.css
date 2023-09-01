@@ -172,9 +172,12 @@ Author:        HTMLmate
 	.our-team-section .section-title {
 		padding-bottom: 0;
 	}
+	
 }
 
 @media screen and (max-width: 420px) {
+	
+	
 	.banner-area-head h1 {
 		font-size: 30px;
 	}
@@ -211,7 +214,8 @@ Author:        HTMLmate
 	}
 	.banner-area-section.home-2 {
 		padding-top: 250px;
-		padding-bottom: 400px;
+		/* this below line is for height of top header of page */ 
+		padding-bottom: 250px;
 		text-align: center;
 	}
 	.download-store li {
@@ -240,7 +244,7 @@ Author:        HTMLmate
 		padding: 30px 0px;
 	}
 	.features-section {
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 
 	.client-details {
@@ -255,6 +259,7 @@ Author:        HTMLmate
 	.blog-text-pic {
 		padding-bottom: 20px;
 	}
+	
 }
 @media screen and (max-width: 375px) { 
 	.banner-slide-area {
@@ -263,4 +268,5 @@ Author:        HTMLmate
 	.banner-slide-area .owl-controls {
 		display: none;
 	}
+
 }

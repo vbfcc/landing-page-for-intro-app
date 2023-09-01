@@ -881,7 +881,8 @@ Start of home-2 banner
 
 }
 .banner-mock-up.home-1 {
-	top: -35px;
+	/* change position of zooming image in top header */
+	top: 35px;
 	/* right: 400px;	 */
 	left: -500px; 
 } 
