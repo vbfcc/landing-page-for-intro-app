@@ -127,7 +127,7 @@ showcaseSlide: function (){
 				items:1,
 				pagination: true,
 			},
-			400:{
+			450:{
 				items:2,
 				pagination: true,
 			},

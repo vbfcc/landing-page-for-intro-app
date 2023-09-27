@@ -56,8 +56,30 @@ body {
 	direction: rtl;
 	font-family: 'Vazir';
 	-webkit-font-smoothing: antialiased;
-	
 }
+
+ /* logo of header */
+ /* .navbar-header  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }  */
+    
+	/* .centered-logo   {
+		display: block;
+		margin: 0 auto;
+		max-width: 100%;
+		text-align: center;
+	} */
+	.centered-logo {
+		text-align: center; /* Center the image horizontally */
+	}
+	
+	.centered-logo img {
+		max-height: 100%; /* Ensure the image fits within the container's height */
+		max-width: 100%; /* Ensure the image fits within the container's width */
+		display: inline-block; /* Make the image an inline-block element for centering */
+	}
 
 /* Add this CSS to change the text color to black */
 nav#bs-example-navbar-collapse-1 a {
@@ -65,13 +87,6 @@ nav#bs-example-navbar-collapse-1 a {
 	max-height: 5px;
 }
 
- /* logo of header */
- .centered-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* height: 100px; You can adjust the height as needed */
-}
 
 /* this below is for paragraph text */
 .text-container {
@@ -86,12 +101,6 @@ nav#bs-example-navbar-collapse-1 a {
 	padding: 25px;
 }
 
-/* 
-.centered-logo img {
-    max-height: 100%; /* Ensure the image fits within the container's height */
-    /* max-width: 100%; Ensure the image fits within the container's width */
-/* }  */
-
 
 
   
@@ -100,15 +109,16 @@ nav#bs-example-navbar-collapse-1 a {
 /* add size to download buttons */
 .same-size {
     width: 170px; /* You can adjust the width as per your requirement */
-    height: 50; /* You can adjust the height as per your requirement */
+    height: 50px; /* You can adjust the height as per your requirement */
   }
 
  /* Decrease the image size for mobile devices */
   .showcase-section .showcase-slider .showcase-img img {
-	max-width: 80%;
+	max-width: 100%;
 	display: block; /* Ensures the image becomes a block-level element */
     margin: 0 auto; /* Centers the image horizontally */
   }
+
 
 
 /* add color to float menu at header */
@@ -171,10 +181,10 @@ h1,h2,h3,h4,h5,h6 {
 } */
 
 .orange-gred {
-	background: -moz-linear-gradient(left, #00ff00 0%, #00cc00 25%, #009900 50%, #006600 75%, #003300 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, #00ff00), color-stop(25%, #00cc00), color-stop(50%, #009900), color-stop(75%, #006600), color-stop(100%, #003300));
+	background: -moz-linear-gradient(left, #4CBB17 0%, #00cc00 25%, #009900 50%, #006600 75%, #003300 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #00FF7F), color-stop(25%, #00cc00), color-stop(50%, #009900), color-stop(75%, #006600), color-stop(100%, #003300));
 	background: -webkit-linear-gradient(left, #00ff00 0%, #00cc00 25%, #009900 50%, #006600 75%, #003300 100%);
-	background: -o-linear-gradient(left, #00ff00 0%, #00cc00 25%, #009900 50%, #006600 75%, #003300 100%);
+	background: -o-linear-gradient(left, #4CBB17 0%, #00cc00 25%, #009900 50%, #006600 75%, #003300 100%);
 	background: -ms-linear-gradient(left, #00ff00 0%, #00cc00 25%, #009900 50%, #006600 75%, #003300 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -370,10 +380,9 @@ Start of about section
 }
 
 .download-store li {
-	margin-right: 10px;
+	margin-right: 5px;
 	width: 150px;
-    height: 65px;
-
+    height: 60px;
 }
 /*----------------------------------------------------------------------- 
 End of about section
@@ -852,8 +861,8 @@ Start of home-2 banner
 	padding-top: 200px;
 	/* background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #ee0979 0%, #ff6a00 100%) repeat scroll 0 0;
 	background: rgba(0, 0, 0, 0) linear-gradient(to right, #ee0979 0%, #ff6a00 100%) repeat scroll 0 0; */
-	background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #00ff00 0%, #00cc00 50%, #009900 100%) repeat scroll 0 0;
-	background: rgba(0, 0, 0, 0) linear-gradient(to right, #00ff00 0%, #00cc00 50%, #009900 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #32CD32 0%, #00cc00 50%, #009900 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) linear-gradient(to right, #00FF7F 0%, #4CBB17 50%, #009900 100%) repeat scroll 0 0;
 	/* max-height: 100px; */
 	/* max-width: 50px; */
 }
@@ -864,7 +873,7 @@ Start of home-2 banner
 	
 }
 .banner-text {
-	max-width: 650px;
+	max-width: 500px;
 }
 .banner-area-head  span {
 	color: #f1f1f1;
@@ -882,7 +891,7 @@ Start of home-2 banner
 }
 .banner-mock-up.home-1 {
 	/* change position of zooming image in top header */
-	top: 35px;
+	top: 10px;
 	/* right: 400px;	 */
 	left: -500px; 
 } 
